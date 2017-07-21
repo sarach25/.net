@@ -58,7 +58,7 @@ namespace UnitTestProject1
         }
         [TestMethod]
 
-        public void TestMethod6()
+        public void TestMethod7()
         {
 
             // les 3 a 
