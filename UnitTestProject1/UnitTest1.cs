@@ -38,5 +38,25 @@ namespace UnitTestProject1
             //Assert : verifier le output 
             Assert.AreEqual(0, resultat);
         }
+
+
+        [TestMethod]
+
+        public void TestMethod4()
+        {
+
+            // les 3 a 
+            // Arrange  : ntsutuw el clqss vqlues controller
+
+            var contrller = new ValuesController();
+
+            //Act 
+            var resultat = contrller.multi(4, 2);
+
+            //Assert : verifier le output 
+            Assert.AreEqual(1, resultat);
+        }
+
+
     }
 }
